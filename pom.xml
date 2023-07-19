@@ -6,10 +6,20 @@
     <artifactId>demeter-all</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demeter</name>
+    <packaging>pom</packaging>
 
     <description>
         🔥热门推荐🔥 大学春招、秋招、应届项目，SpringBoot3+Java17+RPC技术架构，完成初学者完成手写RPC框架从零到一实现。
     </description>
+
+    <modules>
+        <module>client</module>
+        <module>core</module>
+        <module>register</module>
+        <module>serialize</module>
+        <module>server</module>
+        <module>starter</module>
+    </modules>
 
     <properties>
         <java.version>17</java.version>
